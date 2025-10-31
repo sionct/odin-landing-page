@@ -92,3 +92,46 @@ body {
 }
 /* End hero section */
 /* End top-container section */
+
+/* Start information section */
+.information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 0 96px;
+}
+
+.information h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.info-box-container {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  flex-wrap: wrap;
+}
+
+.info-box {
+  width: 160px;
+  height: auto;
+  text-align: center;
+}
+
+.info-box div {
+  width: 160px;
+  height: 160px;
+  border: 4px solid #3882f6;
+  border-radius: 16px;
+}
+
+.info-box p {
+  margin: 4px 0;
+  font-size: 18px;
+  color: #555555;
+}
+/* End information section */

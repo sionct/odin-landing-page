@@ -135,3 +135,31 @@ body {
   color: #555555;
 }
 /* End information section */
+
+/* Start quote section */
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+  padding: 124px 0 96px;
+}
+
+.quote blockquote {
+  width: 50%;
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  margin: 0;
+}
+
+.quote cite {
+  width: 45%;
+  font-size: 24px;
+  font-weight: 900;
+  font-style: normal;
+  text-align: right;
+}
+/* End quote section */

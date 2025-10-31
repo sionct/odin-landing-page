@@ -206,3 +206,13 @@ body {
   border-radius: 8px;
 }
 /* End cta section */
+
+/* Start footer section */
+.footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  text-align: center;
+  padding: 24px 0;
+  font-size: 18px;
+}
+/* End footer section */

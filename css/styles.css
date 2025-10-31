@@ -163,3 +163,46 @@ body {
   text-align: right;
 }
 /* End quote section */
+
+/* Start cta section */
+.cta {
+  padding: 98px 0;
+}
+
+.cta-box {
+  background-color: #3882f6;
+  width: 62%;
+  padding: 52px 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.cta-box div p {
+  margin: 0;
+}
+
+.cta-box div p:first-of-type {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: 900;
+  margin-bottom: 4px;
+}
+
+.cta-box div p:last-of-type {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.cta-box button {
+  font-size: 18px;
+  font-weight: 900;
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 8px 32px;
+  border: 2px solid #f9faf8;
+  border-radius: 8px;
+}
+/* End cta section */

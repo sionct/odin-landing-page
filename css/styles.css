@@ -45,4 +45,50 @@ body {
   text-decoration: none;
 }
 /* End header section */
+
+/* Start hero section */
+.hero {
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 64px;
+  padding: 96px 16px 112px;
+}
+
+.hero-info h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+  margin: 0;
+}
+
+.hero-info p {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin: 0;
+}
+
+.hero-info button {
+  margin-top: 12px;
+  padding: 8px 32px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-weight: 900;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+}
+
+.hero-image {
+  background-color: #6e7883;
+  color: #e5e7eb;
+  width: 900px;
+  height: 220px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* End hero section */
 /* End top-container section */
